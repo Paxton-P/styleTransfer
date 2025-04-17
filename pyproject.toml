@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "style-transfer"
+version = "0.0.0"
+description = "Test repo for funsies"
+authors = ["Paxton Poole <paxtonpoole77@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+numpy = "^2.2.4"
+matplotlib = "^3.10.1"
+torch = "^2.6.0"
+torchvision = "^0.21.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
